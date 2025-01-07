@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Map with Multiple Locations</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 100vh; /* Full height for the map container */
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
+<style>
+    #image-popup {
+      pointer-events: none; /* Prevent interaction with the image */
+      transition: opacity 0.3s ease;
+    }
+    #image-popup img {
+      max-width: 200px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+    }
+</style>
+<style>
+    #school-box {
+      position: absolute;
+      display: none;
+      z-index: 1000;
+      width: 250px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      text-align: center;
+    }
+    #school-box div {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    #school-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style><style>
+    #school-box {
+      position: absolute;
+      display: none;
+      z-index: 1000;
+      width: 250px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      text-align: center;
+    }
+    #school-box div {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    #school-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>    
