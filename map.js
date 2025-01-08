@@ -50,9 +50,9 @@ function hideSchoolBox() {
 // Add markers for all schools
 const schools = [
   { name: 'Oakridge International School', coords: [12.8874546, 77.7525313], image: 'images/oakridge.jpg',},
-  { name: 'The CHIREC International School', coords: [13.076539863579558, 77.73896274818894], image: './images/chirec.jpg' },
+  { name: 'The CHIREC International School', coords: [17.466031647693534, 78.35534812700402], image: './images/chirec.jpg' },
   { name: 'The Aga Khan Academy', coords: [17.246731921803573, 78.48058103079558], image: './images/aga_khan.jpg' },
-  { name: 'Indus International School', coords: [12.835299540563238, 77.77850776926492], image: './images/indus.jpg' },
+  { name: 'Indus International School', coords: [17.450084607132062, 78.17842338655431], image: './images/indus.jpg' },
   { name: 'GD Goenka School', coords: [17.36170946076783, 78.56383857308079], image: './images/goenka.jpg' },
   { name: 'NIHOC The International School', coords: [17.396194814998562, 78.62564163110986], image: './images/nihoc.jpg' },
   { name: 'Sancta Maria School', coords: [17.607169462355436, 78.40693523875808], image: './images/sancta_maria.jpg' },
@@ -61,7 +61,7 @@ const schools = [
   { name: 'Rishi Valley School', coords: [13.63638709376012, 78.45389756450555], image: './images/rishi_valley.jpg' },
   { name: 'Ambitus World School', coords: [16.542942593949597, 80.6723706311272], image: './images/ambitus.jpg' },
   { name: 'The Vizag International School', coords: [18.064579966081098, 83.33420476163535], image: './images/vizag.jpg' },
-  { name: 'Candor International School', coords: [12.82021005514595, 77.62189727618028], image: './images/candor.jpg' },
+  { name: 'Candor International School', coords: [17.32121987674343, 78.62425640188032], image: './images/candor.jpg' },
   { name: 'The Green School', coords: [12.94563760981085, 77.78634957552616], image: './images/green.jpg' },
   { name: 'Inventure Academy', coords: [12.895413764458958, 77.74419758962246], image: './images/inventure.jpg' },
   { name: 'Pathways World School', coords: [28.312711895906258, 77.01278390505134], image: './images/pathways.jpg' },
