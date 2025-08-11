@@ -2,3 +2,12 @@ streamlit==1.37.1
 folium==0.17.0
 streamlit-folium==0.22.0
 pandas==2.2.2
+pandas
+beautifulsoup4
+playwright
+tqdm
+geopy
+tenacity
+python-dotenv
+matplotlib
+scikit-learn
