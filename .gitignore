@@ -1,0 +1,24 @@
+﻿# python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+
+# streamlit / secrets
+.streamlit/secrets.toml
+.env
+
+# data (keep CSV if you want; ignore caches/debug)
+data/cache/
+data/schools_raw.json
+data/page_debug.html
+data/debug_find_ib.png
+
+# playwright cache
+playwright/.cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
